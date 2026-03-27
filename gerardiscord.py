@@ -38,11 +38,11 @@ TEMAS = {
         "categorias": {
             "STAFF": [""]
             "RECEPÇÃO": ["entradas", "saidas", "verificação"],
-            "INFORMAÇÕES": ["regras", "comunicados", "atualizações", "regras-atualizações", "status", "comunicados-sorteios", "sorteios", "top-semanal", "top-mensal", "punições", "spoiler", "votações", "boost-discord"],
+            "INFORMAÇÕES": ["regras", "comunicados", "atualizações", "regras-atualizações", "status", "comunicados-sorteios", "sorteios", "top-semanal", "top-mensal", "punições", "spoiler", "votações", "boost-discord", "duvidas"],
             "COMUNIDADE": ["chat-geral", "pontos", "sugestões", "debate-sugestões", "anncios", "info-self", "eventos", "feedback-staff", "feedback-carros", "bugs", "cooldown", "anúncios-orgs", "votações-orgs"],
-            "SUPORTE": ["sala de espera"],
-            "VIP": [],
-            "STREAMERS": [],
+            "SUPORTE": ["Ticket", "sala de espera", "Suporte 1", "Supprte 2", "Suporte 3", "Suporte 4", "Suporte 5"],
+            "VIP": ["chat-vip-geral", "chat-vip-1", "chat-vip-2", "chat-vip-3", "chat-vip-4", "chat-vip-5", "anúncios-loja", "loja"],
+            "STREAMERS": ["chat-streamers-geral", "chat-streamer-oficial", "chat-streamer-vip", "chat-streamer", "streamer-oficial", "streamer-vip", "streamer", "requesitos-streamer"],
             "FAQ'S": [],
             "FAQ'S": [],
             "MÍDIA": [],
