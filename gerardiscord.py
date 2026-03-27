@@ -32,7 +32,7 @@ TEMAS = {
             "PARCERIAS": ["🤝🏻┆parceria_1", "🤝🏻┆parceria_2", "🤝🏻┆parceria_3"]
         }
     },
-    "Comunidade_creador_conteudo": {
+    "comunidade_creador_conteudo": {
         "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
             "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
