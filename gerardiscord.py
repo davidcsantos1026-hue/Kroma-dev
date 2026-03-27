@@ -26,7 +26,7 @@ TEMAS = {
         "categorias": {
             "CHEFES": ["💬┆chat-chefes", "📦┆bau-chefes"],
             "RECEPÇÃO": ["🛬┆entradas", "🛫┆saidas", "🚨┆regras"],
-            "COMUNIDADE": ["💬┆chat", "📢┆comunicados", "⌛┆ausências", "📦┆bau-geral", "📍┆spots", "🎯┆meta-semanal", "📑┆informações", "🛠️┆craft-materiais", "👕┆roupa", "📱┆imagens", "🎬┆clips", "📸┆eventos"],
+            "COMUNIDADE": ["💬┆chat", "📢┆comunicados", "⌛┆ausências", "📦┆bau-geral", "📍┆spots", "🎯┆meta-semanal", "📑┆informações", "🛠️┆craft-materiais", "👕┆roupa", "📱┆imagens", "🎬┆clips", "📸┆eventos", "streamer"],
             "CALL": ["🔊┆Call 1", "🔊┆Call 2", "🔊┆Call 3", "🔊┆Convício", "💤┆AFK"],
             "PREÇÁRIO": ["💲┆civil", "💲┆parceria"],
             "ECONOMIA": ["🚚┆encomendas", "💸┆vendas"],
@@ -36,19 +36,21 @@ TEMAS = {
     "comunidade_fivem": {
         "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
-            "STAFF": [""]
+            "STAFF": ["chat-staff-líder", "chat-staff", "chat-discord", "chat-dev", "chat-dev-car", "chat-designer", "comunicados", "anúncios", "informações", "comandos", "bugs", "ausências", "sugestões"],
             "RECEPÇÃO": ["entradas", "saidas", "verificação"],
             "INFORMAÇÕES": ["regras", "comunicados", "atualizações", "regras-atualizações", "status", "comunicados-sorteios", "sorteios", "top-semanal", "top-mensal", "punições", "spoiler", "votações", "boost-discord", "duvidas"],
             "COMUNIDADE": ["chat-geral", "pontos", "sugestões", "debate-sugestões", "anncios", "info-self", "eventos", "feedback-staff", "feedback-carros", "bugs", "cooldown", "anúncios-orgs", "votações-orgs"],
-            "SUPORTE": ["Ticket", "sala de espera", "Suporte 1", "Supprte 2", "Suporte 3", "Suporte 4", "Suporte 5"],
+            "SUPORTE": ["Ticket", "sala de espera", "suporte-comunidade", "Suporte 1", "Supprte 2", "Suporte 3", "Suporte 4", "Suporte 5", "Reuniões", "Reuniões staff lider", "Reuniões discord", "Reuniões dev", "Reuniões designer", "Reuniões dev car", "Convívio 1", "Convívio 2", "Convívio 3"],
             "VIP": ["chat-vip-geral", "chat-vip-1", "chat-vip-2", "chat-vip-3", "chat-vip-4", "chat-vip-5", "anúncios-loja", "loja"],
             "STREAMERS": ["chat-streamers-geral", "chat-streamer-oficial", "chat-streamer-vip", "chat-streamer", "streamer-oficial", "streamer-vip", "streamer", "requesitos-streamer"],
-            "FAQ'S": [],
-            "FAQ'S": [],
-            "MÍDIA": [],
-            "CANDIDATURAS": [],
-            "PARCERIAS": [],
-            "GESTOR ORGANIZAÇÕES": []
+            "FAQ'S": ["trabalho-legal-1", "trabalho-legal-2", "trabalho-legal-3", "trabalho-legal-4", "trabalho-legal-5"],
+            "FAQ'S": ["trabalho-ilegal-1", "trabalho-ilegal-2", "trabalho-ilegal-3", "trabalho-ilegal-4", "trabalho-ilegal-5"],
+            "FAQ'S": ["preçario", "bagageiras", "comandos", "limapr-cache", "lag-visual", "lategame"],
+            "MÍDIA": ["imagens", "highlights", "clips", "redes-sociais"],
+            "CANDIDATURAS": ["requesitos-staff", "candidatura-staff", "requesitos-dev", "candidatura-dev", "requesitos-design", "candidatura-design", "requesitos-screen-share", "candidatura-screen-share"],
+            "PARCERIAS": ["parceria-1", "parceria-2", "parceria-3", "parceria-4", "parceria-5"],
+            "GESTOR ORGANIZAÇÕES LEGAIS": ["chat", "comunicados", "anúncios", "pedir-tag", "rádios", "organização-legal-1", "organização-legal-2", "organização-legal-3", "organização-legal-4", "organização-legal-5"],
+            "GESTOR ORGANIZAÇÕES ILEGAIS": ["chat", "comunicados", "anúncios", "pedir-tag", "rádios", "organização-ilegal-1", "organização-ilegal-2", "organização-ilegal-3", "oeganização-ilegal-4", "organização-ilegal-5", "organização-ilegal-6", "organização-ilegal-7", "oeganização-ilegal-8"]       
         }
     },
     "comunidade_streamers": {
