@@ -8,7 +8,7 @@ intents.guilds = True
 intents.members = True
 intents.message_content = True
 
-class MyBot(commands.Bot):
+class KromaBot(commands.Bot):
     def __init__(self):
         super().__init__(command_prefix="!", intents=intents)
 
@@ -17,12 +17,12 @@ class MyBot(commands.Bot):
         await self.tree.sync()
         print(f"✅ Slash Commands sincronizados!")
 
-bot = MyBot()
+bot = KromaBot()
 
 # --- DICIONÁRIO DE TEMAS ---
 TEMAS = {
     "organizacao": {
-        "cargos": [("Chefe", 0x9B59B6), ("Admin", 0x2ECC71), ("Sub-chefe", 0x3498DB), ("Oficial", 0x2ECC71), ("Recruta", 0x2ECC71), ("Morador", 0x2ECC71), ("Organização", 0x2ECC71), ("Amigo", 0x2ECC71), ("Parceria 1", 0x2ECC71), ("Parceria 2", 0x2ECC71), ("Parceria 3", 0x2ECC71),("Civil", 0x2ECC71)],
+        "cargos": [("Chefe", 0x9B59B6), ("🔰┆Admin", 0x2ECC71), ("Sub-chefe", 0x3498DB), ("Oficial", 0x2ECC71), ("Recruta", 0x2ECC71), ("Morador", 0x2ECC71), ("😈┆Organização", 0x2ECC71), ("🤝🏻Amigo", 0x2ECC71), ("🤝🏻Parceria 1", 0x2ECC71), ("🤝🏻Parceria 2", 0x2ECC71), ("🤝🏻Parceria 3", 0x2ECC71),("👤Civil", 0x2ECC71)],
         "categorias": {
             "RECEPÇÃO": ["🛬┆entradas", "🛫┆saidas", "🚨┆regras"],
             "COMUNIDADE": ["💬┆chat", "📢┆comunicados", "⌛┆ausências", "📦┆bau-geral", "📍┆spots", "🎯┆meta-semanal", "📑┆informações", "🛠️┆craft-materiais", "👕┆roupa", "📱┆imagens", "🎬┆clips", "📸┆eventos"],
