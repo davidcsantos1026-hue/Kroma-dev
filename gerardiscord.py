@@ -26,7 +26,7 @@ TEMAS = {
         "categorias": {
             "CHEFES": ["💬┆chat-chefes", "📦┆bau-chefes"],
             "RECEPÇÃO": ["🛬┆entradas", "🛫┆saidas", "🚨┆regras"],
-            "COMUNIDADE": ["💬┆chat", "📢┆comunicados", "⌛┆ausências", "📦┆bau-geral", "📍┆spots", "🎯┆meta-semanal", "📑┆informações", "🛠️┆craft-materiais", "👕┆roupa", "📱┆imagens", "🎬┆clips", "📸┆eventos", "streamer"],
+            "COMUNIDADE": ["💬┆chat", "📢┆comunicados", "⌛┆ausências", "📦┆bau-geral", "📍┆spots", "🎯┆meta-semanal", "📑┆informações", "🛠️┆craft-materiais", "👕┆roupa", "📱┆imagens", "🎬┆clips", "📸┆eventos", "🎥┆streamer"],
             "CALL": ["🔊┆Call 1", "🔊┆Call 2", "🔊┆Call 3", "🔊┆Convício", "💤┆AFK"],
             "PREÇÁRIO": ["💲┆civil", "💲┆parceria"],
             "ECONOMIA": ["🚚┆encomendas", "💸┆vendas"],
