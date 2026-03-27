@@ -24,22 +24,34 @@ TEMAS = {
     "organizacao": {
         "cargos": [("Chefe", 0x9B59B6), ("🔰┆Admin", 0x2ECC71), ("Sub-chefe", 0x3498DB), ("Oficial", 0x2ECC71), ("Recruta", 0x2ECC71), ("Morador", 0x2ECC71), ("😈┆Organização", 0x2ECC71), ("🤝🏻Amigo", 0x2ECC71), ("🤝🏻Parceria 1", 0x2ECC71), ("🤝🏻Parceria 2", 0x2ECC71), ("🤝🏻Parceria 3", 0x2ECC71),("👤Civil", 0x2ECC71)],
         "categorias": {
+            "CHEFES": ["💬┆chat-chefes", "📦┆bau-chefes"],
             "RECEPÇÃO": ["🛬┆entradas", "🛫┆saidas", "🚨┆regras"],
             "COMUNIDADE": ["💬┆chat", "📢┆comunicados", "⌛┆ausências", "📦┆bau-geral", "📍┆spots", "🎯┆meta-semanal", "📑┆informações", "🛠️┆craft-materiais", "👕┆roupa", "📱┆imagens", "🎬┆clips", "📸┆eventos"],
             "CALL": ["🔊┆Call 1", "🔊┆Call 2", "🔊┆Call 3", "🔊┆Convício", "💤┆AFK"],
             "PREÇÁRIO": ["💲┆civil", "💲┆parceria"],
             "ECONOMIA": ["🚚┆encomendas", "💸┆vendas"],
-            "PARCERIAS": ["🤝🏻┆parceria_1", "🤝🏻┆parceria_2", "🤝🏻┆parceria_3"]
+            "PARCERIAS": ["🤝🏻┆parceria-1", "🤝🏻┆parceria-2", "🤝🏻┆parceria-3"]
         }
     },
-    "comunidade_creador_conteudo": {
+    "comunidade_fivem": {
         "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
-            "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
-            "🎮 JOGOS": ["🕹️-procurar-grupo"]
+            "STAFF": [""]
+            "RECEPÇÃO": ["entradas", "saidas", "verificação"],
+            "INFORMAÇÕES": ["regras", "comunicados", "atualizações", "regras-atualizações", "status", "comunicados-sorteios", "sorteios", "top-semanal", "top-mensal", "punições", "spoiler", "votações", "boost-discord"],
+            "COMUNIDADE": ["chat-geral", "pontos", "sugestões", "debate-sugestões", "anncios", "info-self", "eventos", "feedback-staff", "feedback-carros", "bugs", "cooldown", "anúncios-orgs", "votações-orgs"],
+            "SUPORTE": ["sala de espera"],
+            "VIP": [],
+            "STREAMERS": [],
+            "FAQ'S": [],
+            "FAQ'S": [],
+            "MÍDIA": [],
+            "CANDIDATURAS": [],
+            "PARCERIAS": [],
+            "GESTOR ORGANIZAÇÕES": []
         }
     },
-    "Comunidade_fivem": {
+    "comunidade_streamers": {
         "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
             "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
