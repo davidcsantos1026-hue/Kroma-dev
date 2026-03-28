@@ -33,8 +33,8 @@ TEMAS = {
             "PARCERIAS": ["🤝🏻┆parceria-1", "🤝🏻┆parceria-2", "🤝🏻┆parceria-3"]
         }
     },
-    "comunidade_fivem": {
-        "cargos": [("Fundador", 0xFFD700), ("🎮 Player", 0x3498DB)],
+    "comunidade_fivem": { 
+        "cargos": [("Fundador", 0xFFD700), ("Staff Líder", 0x3498DB), ("Suporte", 0xFFD700), ("Muderador", 0x3498DB), ("Estagiário", 0xFFD700), ("Staff", 0x3498DB), ("vip 1", 0xFFD700), ("vip 2", 0x3498DB), ("vip 3", 0xFFD700), ("vip 4", 0x3498DB), ("vip 5", 0xFFD700), ("Streamer Oficial", 0x3498DB), ("Streamer Vip", 0xFFD700), ("Streamer", 0x3498DB), ("chefe de organização legal 1"), ("organização legal 1"), ("chefe de organozação legal 2"), ("organização legal 2"), ("chefe de organização legal 3"), ("organização legal 3"), ("chefe de organização legal 4"), ("organização legal 4"), ("chege de orgamização legal 5"), ("organização legal 5"), ("chefe de orgamização ilegal 1"), ("organização ilegal 1"), ("chefe de organização ilegal 2"), ("organização ilegal 2"), ("chefe de organização ilegal 3"), ("orgqnização ilegal 3"), ("chefe de organização ilegal 4"), ("organização ilegal 4"), ("chefe de organização ilegal 5"), ("organização ilegal 5"), ("chefe de organização ilegal 6"), ("organização ilegal 6"), ("chefe de organização ilegal 7"), ("organização ilegal 7"), ("chefe de organização ilegal 8"), ("organização ilegal 8"), ("Verificado", 0xFFD700), ("Civil", 0x3498DB)],
         "categorias": {
             "STAFF": ["chat-staff-líder", "chat-staff", "chat-discord", "chat-dev", "chat-dev-car", "chat-designer", "comunicados", "anúncios", "informações", "comandos", "bugs", "ausências", "sugestões"],
             "RECEPÇÃO": ["entradas", "saidas", "verificação"],
