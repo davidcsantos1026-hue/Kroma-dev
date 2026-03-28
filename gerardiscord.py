@@ -34,7 +34,7 @@ TEMAS = {
         }
     },
     "comunidade_fivem": {
-        "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
+        "cargos": [("Fundador", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
             "STAFF": ["chat-staff-líder", "chat-staff", "chat-discord", "chat-dev", "chat-dev-car", "chat-designer", "comunicados", "anúncios", "informações", "comandos", "bugs", "ausências", "sugestões"],
             "RECEPÇÃO": ["entradas", "saidas", "verificação"],
