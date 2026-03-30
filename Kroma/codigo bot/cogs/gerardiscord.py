@@ -49,7 +49,7 @@ TEMAS = {
             "🎮 JOGOS": ["🕹️-procurar-grupo"]
         }
     },
-    "ver": {
+    "Comunidade": {
         "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
             "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
