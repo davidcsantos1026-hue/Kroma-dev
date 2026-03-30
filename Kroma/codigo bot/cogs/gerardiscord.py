@@ -38,8 +38,12 @@ TEMAS = {
     "Comunidade_de_divulgação": {
         "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
-            "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
-            "🎮 JOGOS": ["🕹️-procurar-grupo"]
+            "RECEPÇÃO": ["💬-geral", "📢-anuncios"],
+            "COMUNIDADE": ["🕹️-procurar-grupo"],
+            "STREAMERS": [""],
+            "CREADOR DE CONTEÚDO": [""],
+            "SOCIAL POSTER": [""],
+            "CLIP CREATOR": [""]
         }
     },
     "Grupo_de_amigos": {
