@@ -28,7 +28,7 @@ TEMAS = {
             "FAQ'S": ["💼┆trabalho-legal-1", "💼┆trabalho-legal-2", "💼┆trabalho-legal-3", "💼┆trabalho-legal-4", "💼┆trabalho-legal-5"],
             "FAQ'S": ["💀┆trabalho-ilegal-1", "💀┆trabalho-ilegal-2", "💀┆trabalho-ilegal-3", "💀┆trabalho-ilegal-4", "💀┆trabalho-ilegal-5"],
             "FAQ'S": ["💲┆preçario", "🚗┆bagageiras", "⌨️┆comandos", "🗑️┆limpar-cache", "👁️┆lag-visual", "🎮┆lategame"],
-            "MÍDIA": ["📸┆imagens", "🎞️┆highlights", "🎬┆clips", "📱┆redes-sociais"],
+            "MÍDIA": ["📸┆imagens", "🎞️┆highlights", "🎬┆clips", "📱┆redes-sociais", "📣┆Divulgação"],
             "CANDIDATURAS": ["📜┆requesitos-staff", "📝┆candidatura-staff", "📜┆requesitos-dev", "📝┆candidatura-dev", "📜┆requesitos-designer", "📝┆candidatura-designer", "📜┆requesitos-screen-share", "📝┆candidatura-screen-share", "📜┆requesitos-dev-car", "📝┆candidatura-dev-car", "📜┆requesitos-discord-developer", "📝┆candidatura-discord-developer"],
             "PARCERIAS": ["🤝┆parceria-1", "🤝┆parceria-2", "🤝┆parceria-3", "🤝┆parceria-4", "🤝┆parceria-5"],
             "GESTOR ORGANIZAÇÕES LEGAIS": ["💬┆chat", "📢┆comunicados", "📢┆anúncios", "🔖┆pedir-tag", "📻┆rádios", "💼┆organização-legal-1", "💼┆organização-legal-2", "💼┆organização-legal-3", "💼┆organização-legal-4", "💼┆organização-legal-5"],
