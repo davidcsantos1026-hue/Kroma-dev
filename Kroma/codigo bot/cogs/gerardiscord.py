@@ -383,8 +383,9 @@ TEMAS = {
         },
         "grupo_de_amigos": {
             "cargos": [
-                ("👑 Dono", 0xFFD700), 
-                ("🎮 Player", 0x3498DB)
+                ("Fundador", 0xFFD700), 
+                ("Amigo", 0x3498DB),
+                ("Membro",0x3498DB)
             ],
             "categorias": {
                 "GERAL": [
@@ -408,10 +409,48 @@ TEMAS = {
             },
         },
         "Comunidade": {
-            "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
+            "cargos": [
+                ("Fundador", 0xFFD700), 
+                ("Staff", 0x3498DB), 
+                ("Streamer oficial", 0x000000), 
+                ("Streamer vip", 0x000000), 
+                ("Streamer", 0x000000), 
+                ("Membro", 0x000000)
+            ],
             "categorias": {
-                "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
-                "🎮 JOGOS": ["🕹️-procurar-grupo"],
+                "RECEPÇÃO": [
+                    "entrada", 
+                    "saida", 
+                    "regras", 
+                    "verificação"
+                ],
+                "COMUNIDADE": [
+                    "chat", 
+                    "clips", 
+                    "imagens"
+                ],
+                "SUPORTE": [
+                    "ticket", 
+                    "sala de espera", 
+                    "Suporte 1", 
+                    "Suporte 2", 
+                    "Suporte 3", 
+                    "Suporte 4", 
+                    "Suporte 5"
+                ],
+                "CALL": [
+                    "Call 1", 
+                    "Call 2", 
+                    "Call 3", 
+                    "Call 4", 
+                    "Call 5"
+                ],
+                "STREAMER": [
+                    "chat-streamers", 
+                    "streamer-oficial", 
+                    "streamer-vip", 
+                    "streamer"
+                ]
             },
         },
         "Agencia": {
