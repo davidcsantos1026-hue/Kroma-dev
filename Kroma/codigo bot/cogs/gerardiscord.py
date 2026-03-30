@@ -35,7 +35,7 @@ TEMAS = {
             "GESTOR ORGANIZAÇÕES ILEGAIS": ["💬┆chat", "📢┆comunicados", "📢┆anúncios", "🔖┆pedir-tag", "📻┆rádios", "💀┆organização-ilegal-1", "💀┆organização-ilegal-2", "💀┆organização-ilegal-3", "💀┆oeganização-ilegal-4", "💀┆organização-ilegal-5", "💀┆organização-ilegal-6", "💀┆organização-ilegal-7", "💀┆oeganização-ilegal-8"]       
         }
     },
-    "comunidade_streamers": {
+    "comunidade_de_divulgação": {
         "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
             "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
