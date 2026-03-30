@@ -42,21 +42,21 @@ TEMAS = {
             "🎮 JOGOS": ["🕹️-procurar-grupo"]
         }
     },
-    "Clã": {
+    "Grupo_de_amigos": {
         "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
             "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
             "🎮 JOGOS": ["🕹️-procurar-grupo"]
         }
     },
-    "Comunidade_estudo": {
+    "ver": {
         "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
             "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
             "🎮 JOGOS": ["🕹️-procurar-grupo"]
         }
     },
-    "Agencia_design": {
+    "Agencia": {
         "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
             "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
@@ -70,21 +70,21 @@ TEMAS = {
             "🎮 JOGOS": ["🕹️-procurar-grupo"]
         }
     },
-    "Desenvolvedor": {
+    "ver": {
         "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
             "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
             "🎮 JOGOS": ["🕹️-procurar-grupo"]
         }
     },
-    "Desporto": {
+    "ver": {
         "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
             "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
             "🎮 JOGOS": ["🕹️-procurar-grupo"]
         }
     },
-    "Torneio": {
+    "ver": {
         "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
         "categorias": {
             "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
