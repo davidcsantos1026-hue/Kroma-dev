@@ -42,7 +42,7 @@ bot = Kroma()
 async def on_ready():
     print(f'🚀 Bot online como {bot.user}')
     print(f'📂 ID do Bot: {bot.user.id}')
-    await bot.change_presence(activity=discord.Game(name="A gerir a cidade!"))
+    await bot.change_presence(activity=discord.Game(name="A gerir o seu servidor!"))
 
 async def main():
     async with bot:
