@@ -411,10 +411,7 @@ TEMAS = {
         "Comunidade": {
             "cargos": [
                 ("Fundador", 0xFFD700), 
-                ("Staff", 0x3498DB), 
-                ("Streamer oficial", 0x000000), 
-                ("Streamer vip", 0x000000), 
-                ("Streamer", 0x000000), 
+                ("Staff", 0x3498DB),
                 ("Membro", 0x000000)
             ],
             "categorias": {
@@ -444,27 +441,26 @@ TEMAS = {
                     "Call 3", 
                     "Call 4", 
                     "Call 5"
-                ],
-                "STREAMER": [
-                    "chat-streamers", 
-                    "streamer-oficial", 
-                    "streamer-vip", 
-                    "streamer"
                 ]
             },
         },
-        "Agencia": {
+        "agencia": {
             "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
             "categorias": {
-                "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
-                "🎮 JOGOS": ["🕹️-procurar-grupo"],
+                "RECEPÇÃO": ["entrada", "saida", "regras", "vetificação"],
+                "AGENCIA": ["comunicados", "anúncios"],
+                "PORTOFÓLIO": [],
+                "LOJA": ["anúncios", "loja"],
+                "COMUNIDADE": ["chat", "feedback"],
+                "SUPORTE": ["ticket", "dúvidas", "Sala de espera", "Suporte 1", "Suporte 2", "Suporte 3"],
+                "PARCERIAS": ["parceria-1", "parceria-2", "parceria-3", "parceria-4", "parceria-5"]
             },
         },
         "Servidor_vendas": {
             "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
             "categorias": {
-                "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
-                "🎮 JOGOS": ["🕹️-procurar-grupo"],
+                "RECEPÇÃO": ["💬-geral", "📢-anuncios"],
+                "AG3": ["🕹️-procurar-grupo"],
             },
         },
         "Suporte": {
