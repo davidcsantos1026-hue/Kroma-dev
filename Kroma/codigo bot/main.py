@@ -11,6 +11,8 @@ intents = discord.Intents.default()
 intents.members = True
 intents.message_content = True
 
+bot = commands.Bot(command_prefix="!", intents=intents)
+
 class Kroma(commands.Bot):
     def __init__(self):
         super().__init__(
@@ -52,8 +54,29 @@ async def main():
 
         await bot.start(DISCORD_TOCKEN)
 
-if __name__ == '__main__':
+async def carregar_modulos():
+    # Tenta carregar o ficheiro personalizacaoperfil.py
     try:
-        asyncio.run(main())
+        await bot.load_extension('personalizacaoperfil')
+        print("✔️ Módulo 'personalizacaoperfil' carregado!")
+    except Exception as e:
+        print(f"❌ Falha ao carregar módulo: {e}")
+
+@bot.event
+async def on_ready():
+    print(f'--- Bot Online ---')
+    print(f'Nome: {bot.user.name}')
+    print(f'ID: {bot.user.id}')
+    print(f'------------------')
+
+async def iniciar():
+    async with bot:
+        await carregar_modulos()
+        # SUBSTITUI PELO TEU TOKEN REAL
+        await bot.start('TEU_TOKEN_AQUI_DENTRO_DAS_ASPAS')
+
+if __name__ == "__main__":
+    try:
+        asyncio.run(iniciar())
     except KeyboardInterrupt:
-        print("👋 Bot desligado manualmente.")
+        print("Bot desligado.")
