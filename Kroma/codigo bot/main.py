@@ -62,6 +62,8 @@ async def carregar_modulos():
     except Exception as e:
         print(f"❌ Falha ao carregar módulo: {e}")
 
+await bot.load_extension('permissoes_organizacao')
+
 @bot.event
 async def on_ready():
     print(f'--- Bot Online ---')
