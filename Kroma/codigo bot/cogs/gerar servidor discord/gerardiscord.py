@@ -560,6 +560,18 @@ TEMAS = {
                 ("👤┆Membro", 0x3498DB)
             ],
             "categorias": {
+                "STAFF": [
+                    "chat-staff-líder", 
+                    "chat-staff", 
+                    "comunicados", 
+                    "anúncios", 
+                    "comandos", 
+                    "informações", 
+                    "erros", 
+                    "bugs", 
+                    "sugestões", 
+                    "ausências"
+                ],
                 "RECEPÇÃO": [
                     "🛬┆entrada", 
                     "🛬┆saida", 
