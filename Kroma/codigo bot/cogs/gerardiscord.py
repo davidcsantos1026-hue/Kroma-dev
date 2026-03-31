@@ -500,14 +500,48 @@ TEMAS = {
             },
         },
         "Servidor_vendas": {
-            "cargos": [("Dono", 0xFFD700), ("Staff", 0x3498DB), ("Parceria", 0x000000), ("Cliente", 0x000000), ("Membro", 0x000000)],
+            "cargos": [
+                ("Dono", 0xFFD700), 
+                ("Staff", 0x3498DB), 
+                ("Parceria", 0x000000), 
+                ("Cliente", 0x000000), 
+                ("Membro", 0x000000)
+            ],
             "categorias": {
-                "RECEPÇÃO": ["entrada", "saida", "regras", "verificação"],
-                "INFORMAÇÕES": ["comunicados", "anúncios", "produtos-venda", "preçário", "informações"],
-                "LOJA": ["comunicados", "anúncios", "loja"],
-                "COMUNIDADE": ["chat", "dúvidas"],
-                "SUPORTE": ["ticket", "Sala de espera", "Suporte 1", "Suporte 2", "Suporte 3"],
-                "PARCERIA": ["parceria-1", "parceria-2", "parceria-3"]
+                "RECEPÇÃO": [
+                    "entrada", 
+                    "saida", 
+                    "regras", 
+                    "verificação"
+                ],
+                "INFORMAÇÕES": [
+                    "comunicados", 
+                    "anúncios", 
+                    "produtos-venda", 
+                    "preçário", 
+                    "informações"
+                ],
+                "LOJA": [
+                    "comunicados", 
+                    "anúncios", 
+                    "loja"
+                ],
+                "COMUNIDADE": [
+                    "chat", 
+                    "dúvidas"
+                ],
+                "SUPORTE": [
+                    "ticket", 
+                    "Sala de espera", 
+                    "Suporte 1", 
+                    "Suporte 2", 
+                    "Suporte 3"
+                ],
+                "PARCERIA": [
+                    "parceria-1", 
+                    "parceria-2", 
+                    "parceria-3"
+                ]
             },
         },
         "Suporte": {
