@@ -749,6 +749,11 @@ class Temas(commands.Cog):
         embed.add_field(name="Escolhe um nome para usar no /gerar:", value=texto_temas, inline=False)
         await interaction.response.send_message(embed=embed, ephemeral=True)
 
+cog_perms = self.bot.get_cog("PermissoesOrganizacao")
+if cog_perms:
+    await cog_perms.configurar_permissoes_detalhadas(guild)
+    print("Permissões individuais aplicadas com sucesso.")
+
 # --- SETUP ÚNICO NO FINAL DO ARQUIVO ---
 async def setup(bot: commands.Bot):
     await bot.add_cog(gerardiscord(bot))
