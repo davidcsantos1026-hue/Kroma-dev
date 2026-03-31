@@ -445,22 +445,69 @@ TEMAS = {
             },
         },
         "agencia": {
-            "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
+            "cargos": [
+                ("Dono", 0xFFD700), 
+                ("Staff", 0x000000), 
+                ("Parceria", 0x3498DB),  
+                ("Cliente", 0x000000), 
+                (Membro", 0x000000)
+            ],
             "categorias": {
-                "RECEPÇÃO": ["entrada", "saida", "regras", "vetificação"],
-                "AGENCIA": ["comunicados", "anúncios"],
-                "PORTOFÓLIO": [],
-                "LOJA": ["anúncios", "loja"],
-                "COMUNIDADE": ["chat", "feedback"],
-                "SUPORTE": ["ticket", "dúvidas", "Sala de espera", "Suporte 1", "Suporte 2", "Suporte 3"],
-                "PARCERIAS": ["parceria-1", "parceria-2", "parceria-3", "parceria-4", "parceria-5"]
+                "RECEPÇÃO": [
+                    "entrada", 
+                    "saida", 
+                    "regras", 
+                    "vetificação"
+                ],
+                "AGENCIA": [
+                    "comunicados", 
+                    "anúncios"
+                ],
+                "PORTOFÓLIO": [
+                    "logos", 
+                    "gifs", 
+                    "banners", 
+                    "thumbs", 
+                    "loadingscreens", 
+                    "artes", 
+                    "flyers", 
+                    "outros"
+                ],
+                "LOJA": [
+                    "comunicados",
+                    "anúncios", 
+                    "loja"
+                ],
+                "COMUNIDADE": [
+                    "chat", 
+                    "feedback"
+                ],
+                "SUPORTE": [
+                    "ticket", 
+                    "dúvidas", 
+                    "Sala de espera", 
+                    "Suporte 1", 
+                    "Suporte 2", 
+                    "Suporte 3"
+                ],
+                "PARCERIAS": [
+                    "parceria-1", 
+                    "parceria-2", 
+                    "parceria-3", 
+                    "parceria-4", 
+                    "parceria-5"
+                ]
             },
         },
         "Servidor_vendas": {
-            "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
+            "cargos": [("Dono", 0xFFD700), ("Staff", 0x3498DB), ("Parceria", 0x000000), ("Cliente", 0x000000), ("Membro", 0x000000)],
             "categorias": {
-                "RECEPÇÃO": ["💬-geral", "📢-anuncios"],
-                "AG3": ["🕹️-procurar-grupo"],
+                "RECEPÇÃO": ["entrada", "saida", "regras", "verificação"],
+                "INFORMAÇÕES": ["comunicados", "anúncios", "produtos-venda", "preçário", "informações"],
+                "LOJA": ["comunicados", "anúncios", "loja"],
+                "COMUNIDADE": ["chat", "dúvidas"],
+                "SUPORTE": ["ticket", "Sala de espera", "Suporte 1", "Suporte 2", "Suporte 3"],
+                "PARCERIA": ["parceria-1", "parceria-2", "parceria-3"]
             },
         },
         "Suporte": {
