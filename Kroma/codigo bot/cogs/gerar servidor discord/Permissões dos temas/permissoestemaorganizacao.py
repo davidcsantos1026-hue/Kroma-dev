@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-class PermissoesOrganizacao(commands.Cog):
+class permissoesorganizacao(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
@@ -65,4 +65,4 @@ class PermissoesOrganizacao(commands.Cog):
         await ctx.send("✅ **Concluído!** Canais trancados e configurados individualmente.")
 
 async def setup(bot):
-    await bot.add_cog(PermissoesOrganizacao(bot))
+    await bot.add_cog(permissoesorganizacao(bot))
