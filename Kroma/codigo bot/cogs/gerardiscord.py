@@ -545,21 +545,7 @@ TEMAS = {
             },
         },
         "Suporte": {
-            "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
-            "categorias": {
-                "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
-                "🎮 JOGOS": ["🕹️-procurar-grupo"],
-            },
-        },
-        "ver": {
-            "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
-            "categorias": {
-                "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
-                "🎮 JOGOS": ["🕹️-procurar-grupo"],
-            },
-        },
-        "veremos": {
-            "cargos": [("👑 Dono", 0xFFD700), ("🎮 Player", 0x3498DB)],
+            "cargos": [("Fundador", 0xFFD700), ("🎮 Player", 0x3498DB)],
             "categorias": {
                 "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
                 "🎮 JOGOS": ["🕹️-procurar-grupo"],
