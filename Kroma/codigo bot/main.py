@@ -55,14 +55,19 @@ async def main():
         await bot.start(DISCORD_TOCKEN)
 
 async def carregar_modulos():
-    # Tenta carregar o ficheiro personalizacaoperfil.py
-    try:
-        await bot.load_extension('personalizacaoperfil')
-        print("✔️ Módulo 'personalizacaoperfil' carregado!")
-    except Exception as e:
-        print(f"❌ Falha ao carregar módulo: {e}")
+    # Lista de ficheiros .py que queres carregar como extensões
+    modulos = [
+        'personalizacaoperfil',
+        'permissoes_organizacao',
+        'gerardiscord' # Adicionei este pois é o ficheiro principal que estivemos a falar
+    ]
 
-await bot.load_extension('permissoes_organizacao')
+    for modulo in modulos:
+        try:
+            await bot.load_extension(modulo)
+            print(f"✔️ Módulo '{modulo}' carregado com sucesso!")
+        except Exception as e:
+            print(f"❌ Falha ao carregar módulo '{modulo}': {e}")
 
 @bot.event
 async def on_ready():
