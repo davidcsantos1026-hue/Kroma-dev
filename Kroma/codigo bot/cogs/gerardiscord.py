@@ -7,12 +7,12 @@ import asyncio
 TEMAS = {
     "organizacao": {
         "cargos": [
-            ("Chefe", 0x9B59B6),
+            ("💀┆Chefe", 0x9B59B6),
             ("🔰┆Admin", 0x2ECC71),
-            ("Sub-chefe", 0x3498DB),
-            ("Oficial", 0x2ECC71),
-            ("Recruta", 0x2ECC71),
-            ("Morador", 0x2ECC71),
+            ("💀┆Sub-chefe", 0x3498DB),
+            ("💀┆Oficial", 0x2ECC71),
+            ("💀┆Recruta", 0x2ECC71),
+            ("💀┆Morador", 0x2ECC71),
             ("😈┆Organização", 0x2ECC71),
             ("🤝🏻Amigo", 0x2ECC71),
             ("🤝🏻Parceria 1", 0x2ECC71),
@@ -383,9 +383,9 @@ TEMAS = {
         },
         "grupo_de_amigos": {
             "cargos": [
-                ("Fundador", 0xFFD700), 
-                ("Amigo", 0x3498DB),
-                ("Membro",0x3498DB)
+                ("👑┆Fundador", 0xFFD700), 
+                ("👥┆Amigo", 0x3498DB),
+                ("👤┆Membro",0x3498DB)
             ],
             "categorias": {
                 "GERAL": [
@@ -410,145 +410,188 @@ TEMAS = {
         },
         "Comunidade": {
             "cargos": [
-                ("Fundador", 0xFFD700), 
-                ("Staff", 0x3498DB),
-                ("Membro", 0x000000)
+                ("👑┆Fundador", 0xFFD700), 
+                ("🔰┆Staff", 0x3498DB),
+                ("👤┆Membro", 0x000000)
             ],
             "categorias": {
                 "RECEPÇÃO": [
-                    "entrada", 
-                    "saida", 
-                    "regras", 
-                    "verificação"
+                    "🛬┆entrada", 
+                    "🛬┆saida", 
+                    "🚨┆regras", 
+                    "✅┆verificação"
                 ],
                 "COMUNIDADE": [
-                    "chat", 
-                    "clips", 
-                    "imagens"
+                    "💬┆chat", 
+                    "🎬┆clips", 
+                    "📸┆imagens"
                 ],
                 "SUPORTE": [
-                    "ticket", 
-                    "sala de espera", 
-                    "Suporte 1", 
-                    "Suporte 2", 
-                    "Suporte 3", 
-                    "Suporte 4", 
-                    "Suporte 5"
+                    "🎟️┆ticket", 
+                    "⏳┆sala de espera", 
+                    "📞┆Suporte 1", 
+                    "📞┆Suporte 2", 
+                    "📞┆Suporte 3", 
+                    "📞┆Suporte 4", 
+                    "📞┆Suporte 5"
                 ],
                 "CALL": [
-                    "Call 1", 
-                    "Call 2", 
-                    "Call 3", 
-                    "Call 4", 
-                    "Call 5"
-                ]
+                    "🔊┆Call 1", 
+                    "🔊┆Call 2", 
+                    "🔊┆Call 3", 
+                    "🔊┆Call 4", 
+                    "🔊┆Call 5"
+                ],
+                "AFK": [
+                    "💤┆AFK", 
+                    "🎶┆A ouvir música"
+                ],
             },
         },
         "agencia": {
             "cargos": [
-                ("Dono", 0xFFD700), 
-                ("Staff", 0x000000), 
-                ("Parceria", 0x3498DB),  
-                ("Cliente", 0x000000), 
-                (Membro", 0x000000)
+                ("👑┆Dono", 0xFFD700), 
+                ("🔰┆Staff", 0x000000), 
+                ("🤝🏻┆Parceria", 0x3498DB),  
+                ("🛒┆Cliente", 0x000000), 
+                ("👤┆Membro", 0x000000)
             ],
             "categorias": {
                 "RECEPÇÃO": [
-                    "entrada", 
-                    "saida", 
-                    "regras", 
-                    "vetificação"
+                    "🛬┆entrada", 
+                    "🛬┆saida", 
+                    "🚨┆regras", 
+                    "✅┆vetificação"
                 ],
                 "AGENCIA": [
-                    "comunicados", 
-                    "anúncios"
+                    "📢┆comunicados", 
+                    "📢┆anúncios"
                 ],
                 "PORTOFÓLIO": [
-                    "logos", 
-                    "gifs", 
-                    "banners", 
-                    "thumbs", 
-                    "loadingscreens", 
-                    "artes", 
-                    "flyers", 
-                    "outros"
+                    "📁┆logos", 
+                    "📁┆gifs", 
+                    "📁┆banners", 
+                    "📁┆thumbs", 
+                    "📁┆loadingscreens", 
+                    "📁┆artes", 
+                    "📁┆flyers", 
+                    "📁┆outros"
                 ],
                 "LOJA": [
-                    "comunicados",
-                    "anúncios", 
-                    "loja"
+                    "📢┆comunicados",
+                    "📢┆anúncios", 
+                    "🛒┆loja"
                 ],
                 "COMUNIDADE": [
-                    "chat", 
-                    "feedback"
+                    "💬┆chat", 
+                    "📩┆feedback"
                 ],
                 "SUPORTE": [
-                    "ticket", 
-                    "dúvidas", 
-                    "Sala de espera", 
-                    "Suporte 1", 
-                    "Suporte 2", 
-                    "Suporte 3"
+                    "🎟️┆ticket", 
+                    "❓┆dúvidas", 
+                    "⏳┆Sala de espera", 
+                    "📞┆Suporte 1", 
+                    "📞┆Suporte 2", 
+                    "📞┆Suporte 3"
                 ],
                 "PARCERIAS": [
-                    "parceria-1", 
-                    "parceria-2", 
-                    "parceria-3", 
-                    "parceria-4", 
-                    "parceria-5"
+                    "🤝🏻┆parceria-1", 
+                    "🤝🏻┆parceria-2", 
+                    "🤝🏻┆parceria-3", 
+                    "🤝🏻┆parceria-4", 
+                    "🤝🏻┆parceria-5"
                 ]
             },
         },
         "Servidor_vendas": {
             "cargos": [
-                ("Dono", 0xFFD700), 
-                ("Staff", 0x3498DB), 
-                ("Parceria", 0x000000), 
-                ("Cliente", 0x000000), 
-                ("Membro", 0x000000)
+                ("👑┆Dono", 0xFFD700), 
+                ("🔰┆Staff", 0x3498DB), 
+                ("🤝🏻┆Parceria", 0x000000), 
+                ("🛒┆Cliente", 0x000000), 
+                ("👤┆Membro", 0x000000)
             ],
             "categorias": {
                 "RECEPÇÃO": [
-                    "entrada", 
-                    "saida", 
-                    "regras", 
-                    "verificação"
+                    "🛬┆entrada", 
+                    "🛬┆saida", 
+                    "🚨┆regras", 
+                    "✅┆verificação"
                 ],
                 "INFORMAÇÕES": [
-                    "comunicados", 
-                    "anúncios", 
-                    "produtos-venda", 
-                    "preçário", 
-                    "informações"
+                    "📢┆comunicados", 
+                    "📢┆anúncios", 
+                    "📦┆produtos-venda", 
+                    "💸┆preçário", 
+                    "ℹ️┆informações"
                 ],
                 "LOJA": [
-                    "comunicados", 
-                    "anúncios", 
-                    "loja"
+                    "📢┆comunicados", 
+                    "📢┆anúncios", 
+                    "🛒┆loja"
                 ],
                 "COMUNIDADE": [
-                    "chat", 
-                    "dúvidas"
+                    "💬┆chat", 
+                    "❓┆dúvidas"
                 ],
                 "SUPORTE": [
-                    "ticket", 
-                    "Sala de espera", 
-                    "Suporte 1", 
-                    "Suporte 2", 
-                    "Suporte 3"
+                    "🎟️┆ticket", 
+                    "⏳┆Sala de espera", 
+                    "📞┆Suporte 1", 
+                    "📞┆Suporte 2", 
+                    "📞┆Suporte 3"
                 ],
                 "PARCERIA": [
-                    "parceria-1", 
-                    "parceria-2", 
-                    "parceria-3"
+                    "🤝🏻┆parceria-1", 
+                    "🤝🏻┆parceria-2", 
+                    "🤝🏻┆parceria-3"
                 ]
             },
         },
         "Suporte": {
-            "cargos": [("Fundador", 0xFFD700), ("🎮 Player", 0x3498DB)],
+            "cargos": [
+                ("👑┆Fundador", 0xFFD700), 
+                ("🔰┆Staff líder", 0x3498DB), 
+                ("🔰┆Suporte", 0x3498DB), 
+                ("🔰┆Moderador", 0x3498DB), 
+                ("🔰┆Estagiário", 0x3498DB), 
+                ("🔰┆Staff", 0x3498DB), 
+                ("🤝🏻┆Parceria", 0x3498DB), 
+                ("👤┆Membro", 0x3498DB)
+            ],
             "categorias": {
-                "🏠 PRINCIPAL": ["💬-geral", "📢-anuncios"],
-                "🎮 JOGOS": ["🕹️-procurar-grupo"],
+                "RECEPÇÃO": [
+                    "🛬┆entrada", 
+                    "🛬┆saida", 
+                    "🚨┆regras", 
+                    "✅┆verificação"
+                ],
+                "INFORMAÇÃO": [
+                    "📢┆comunicados", 
+                    "📢┆anúncios", 
+                    "ℹ️┆informações"
+                ],
+                "COMUNIDADE": [
+                    "💬┆chat", 
+                    "❓┆sugestões"
+                ],
+                "SUPORTE": [
+                    "🎟️┆ticket", 
+                    "❓┆dúvidas", 
+                    "⏳┆Sala de espera", 
+                    "📞┆Suporte 1", 
+                    "📞┆Suporte 2", 
+                    "📞┆Suporte 3", 
+                    "📞┆Suporte 4", 
+                    "📞┆Suporte 5"
+                ],
+                "PARCERIA": [
+                    "🤝🏻┆parceria-1", 
+                    "🤝🏻┆parceria-2", 
+                    "🤝🏻┆parceria-3", 
+                    "🤝🏻┆parceria-4", 
+                    "🤝🏻┆parceria-5"
+                ],
             },
         },
     },
